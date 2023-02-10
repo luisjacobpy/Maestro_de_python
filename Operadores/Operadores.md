@@ -150,3 +150,16 @@ c[0] == "H" or c[0] == "h"
 ```bash
 True
 ```
+
+# Expresiones anidadas
+Normas de precendecia
+```py
+a = 10
+b = 5
+a * b - 2**b >= 20 and not (a % b) != 0
+```
+
+* Primero los parentesis porque son los que tienen prioridad.
+* Segundo, expresiones aritméticas por sus propias reglas: # Exponente: # Multiplicación: #Resta
+* Tercero, relacionales '>=', 'and ', '0 != 0'
+* Cuarto y ultimo, lógicos: 'False', 'not False', 'False and True'
