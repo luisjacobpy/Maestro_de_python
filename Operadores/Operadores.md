@@ -6,7 +6,7 @@ Los operadores aritmeticos (+,-,/*) dan lugar a expresiones de distintos tipos.
 * Algebraicas si al menos un operando es una variable.
 
 
-## El tipo lógico
+# El tipo lógico
 * Mínima expresión racional
 * Representada por dos valores
 * Verdadero y falso
@@ -50,4 +50,103 @@ from evaluate import expresiones
 # completa el ejercicio
 resultados = expresiones[:]
 print(resultados)
+```
+# Operadores logicos
+* Negación logica
+* Solo afecta a los logicos
+
+
+Negar algo que es verdadero
+```py
+not True
+```
+False
+
+
+```py
+not True == False
+```
+True
+
+Los operadores se presentan en dos formas: 
+* Conjunción
+* Disyunción
+
+# and
+
+```py
+True and True
+```
+True
+
+```py
+True and False
+```
+False
+
+```py
+False and False
+```
+False
+
+```py
+# Ejemplo con variables
+a = 13
+a > 10 and a < 20
+```
+```bash
+True
+```
+```py
+# Ejemplo con variables N2
+a = 7
+a > 10 and a < 20
+```
+```bash
+False
+```
+
+```py
+# Ejemplo con strings
+c = "Hola mundo"
+# Esta evaluando la longitud del string y el indice
+```
+```bash
+True
+```
+
+# or
+Separación lógica
+
+```py
+True or True
+```
+```bash
+True
+```
+```py
+True or False
+```
+```bash
+True
+```
+
+```py
+# Por ejemplo en un programa
+c = "SALIR"
+c == "EXIT" or c == "FIN" or == "SALIR"
+
+```
+```bash
+True
+```
+
+```py
+# String comprobar si tiene una letra sin importar si ews mayuscula o minuscula.
+c = "Hector"
+c[0] == "H" or c[0] == "h"
+
+```
+```bash
+True
 ```
