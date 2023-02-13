@@ -110,6 +110,7 @@ False
 # Ejemplo con strings
 c = "Hola mundo"
 # Esta evaluando la longitud del string y el indice
+len(c) >= 5 and c[0] == "H"
 ```
 ```bash
 True
