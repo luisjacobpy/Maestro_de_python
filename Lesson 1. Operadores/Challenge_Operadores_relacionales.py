@@ -23,3 +23,10 @@ print(resultados)
 
 # completa el ejercicio
 # resultados = []
+
+# -------------------
+'''
+Teacger's solution
+'''
+# completa el ejercicio
+resultados = [False, True, True, True, True]
