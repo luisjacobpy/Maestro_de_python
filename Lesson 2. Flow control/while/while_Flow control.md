@@ -1,5 +1,5 @@
 # Bucle While
-* interar es realizar una acción varias veces
+* iterar es realizar una acción varias veces
 * Cada vez que se repite la acción se llama iteración
 
 ### while and else
