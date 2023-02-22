@@ -43,9 +43,9 @@ Determinar si es un numero par o impar
 
 n = 10
 if n % 2 == 0:
-    print(n, "es un nunmero par")
+    print(n, "es un numero par")
 else:
-    print(n, "es un nunmero impar")
+    print(n, "es un numero impar")
 
 
 ```
