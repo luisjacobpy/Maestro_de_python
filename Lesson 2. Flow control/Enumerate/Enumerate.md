@@ -55,3 +55,19 @@ for i,cadena in enumerate(iniciales):
     iniciales[i] = iniciales[i][0]s):
     
 ```
+
+## Challenge n2 Enumerate
+
+```python
+multiplos = []
+ 
+# Empezamos leyendo un número entero por teclado
+numero = int(input())
+ 
+# Volveremos a leerlo mientras el número no se encuentre entre 1 y 9 (ambos incluidos)
+while numero < 1 or numero > 9:
+    numero = int(input())
+ 
+# Generamos con range toda la lista de múltiplos entre el numero y 100
+multiplos = list(range(numero, 101, numero))
+```
