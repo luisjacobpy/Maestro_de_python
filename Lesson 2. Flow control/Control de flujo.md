@@ -7,7 +7,7 @@
 Para elegir entre distintas posibilidades.
 
 
-## Intertivas
+## Interativas
 Para repetir un bloque de instrucciones.
 
 
