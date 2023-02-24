@@ -120,3 +120,22 @@ This is a string -> g
 ['Blue', 'Green', 'Yellow'] -> Yellow
 """
 ````
+
+## Enumerate
+```python
+# Enumerate
+for indice_collection, collection in enumerate(lista):
+    for indice_element, element in enumerate(collection):
+        print(lista[indice_collection][indice_element])
+
+# Variable
+table = [
+    [0,0,0],
+    [1,1,1],
+    [2,2,2]
+]
+
+for fila in table:
+    for columna in fila:
+        print(columna, end=" ")
+```
