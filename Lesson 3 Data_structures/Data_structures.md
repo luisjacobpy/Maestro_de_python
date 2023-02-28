@@ -110,3 +110,36 @@ print(list_2) # [1, 2, 3]
 s = 'This is a sttring, in string, for string'
 print(set(s)) # {'a', ' ', 'r', 'g', ',', 'n', 'o', 'i', 's', 'T', 'f', 'h', 't'}
 ```
+
+### Conjuntos |Learning_Challenge_Conjuntos
+El siguiente ejercicio te servirá para practicar la manipulación de conjuntos.
+
+Debes realizar las siguientes instrucciones de forma ordenada sobre la variable grupo para que el ejercicio valide correctamente:
+
+Añade los siguientes usuarios: Ana, Ramón, Marta, Eric y David (respeta las tildes)
+
+Elimina (*) los usuarios Mario, Miguel y Ramón.
+
+Optativo: Cuando tu solución valide, dale una vuelta de tuerca. A ver si se te ocurre alguna forma de optimizarlo utilizando listas y bucles.
+
+(*) Para eliminar un registro de un conjunto puedes utilizar su método interno conjunto.remove("registro").
+
+```python
+# Variables del ejercicio (no las modifiques)
+grupo = {"Miguel", "Blanca", "Mario", "Andrés"}
+
+# Completa el ejercicio
+# Add
+grupo.add('Ana')
+grupo.add('Ramón')
+grupo.add('Marta')
+grupo.add('Eric')
+grupo.add('David')
+
+# Remove
+grupo.remove('Mario')
+grupo.remove('Miguel')
+grupo.remove('Ramón')
+print(grupo) # {'Blanca', 'Andrés', 'David', 'Marta', 'Eric', 'Ana'}
+  
+```
