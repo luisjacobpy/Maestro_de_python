@@ -35,6 +35,10 @@ for task in tareas:
 print("\n==Tareas ordenadas==")
 for task in cola:
     print(task)
+    
+# Para extraer la primera tarea a realizar
+list_task_done = []
+done_1= cola.popleft()
 ```
 
 ## output
@@ -66,9 +70,5 @@ Pruebas
 Distribución
 Mantenimiento
 
-
-# Para extraer la primera tarea a realizar
-list_task_done = []
-done_1= cola.popleft()
 ```
 
